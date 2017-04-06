@@ -15,7 +15,7 @@ class Company:
     def __init__(self, name, industry):
         self.name = name
         self.industry = industry
-        self.employees = list()
+        self.employees = set()
 
     def set_name(self, name):
         '''\This method sets the name of the company
@@ -52,7 +52,7 @@ class Company:
         ------------------
         employee(object): This is an employee of the company'''
 
-        self.employees.append(employee)
+        self.employees.add(employee)
 
     def get_employees(self):
         """Returns the employees of the company"""

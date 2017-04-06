@@ -46,17 +46,17 @@ class Employee:
 
 		self.name = name
 
-	def get_title(self, title):
+	def get_title(self):
 		'''\This method returns the title of an employee'''
 
 		return self.title
 
-	def get_start_date(self, start_date):
+	def get_start_date(self):
 		'''\This method returns the start_date of an employee.'''
 
 		return self.start_date
 
-	def get_name(self, name):
+	def get_name(self):
 		'''\This method returns the name of an employee'''
 
 		return self.name
